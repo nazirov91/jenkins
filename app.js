@@ -3,7 +3,7 @@ var app = express();
 var port = 8080;
 
 app.get('/', function(req, res){
-  res.send('It seems to be working. Good job!');
+  res.send('Now trying with the deploy user');
 });
 
 app.listen(port, function(){
