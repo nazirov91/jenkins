@@ -3,7 +3,7 @@ var app = express();
 var port = 3000;
 
 app.get('/', function(req, res){
-  res.send('Testing Codeship! Implementing continuous deployment.');
+  res.send('It seems to be working. Good job!');
 });
 
 app.listen(port, function(){
